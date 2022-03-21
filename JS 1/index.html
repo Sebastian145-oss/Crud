@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Producto</title>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Producto</a>
+    </nav>
+
+    <div class="contenedor">
+
+        <!--APLICACIÓN-->
+
+        <div id="App" class="fila 5">
+            <!--FORMULARIO-->
+            <div class="columna 4">
+                <div class="tarjeta">
+                    <div class="tarjeta-header">
+                        <h4>Agregar Producto</h4>
+                    </div>
+
+                    <form action="" id="formulario-producto" class="tarjeta-cuerpo">
+                        <div class="Formulario-grupos">
+                            <input type="text" id="Nombre" placeholder="Nombre de Producto" class="Control-formulario">
+                        </div>
+                        <input type="submit" value="Guardar" class="btn btn-primario btn-bloque">
+                    </form>
+                </div>
+
+            </div> <!--termina formulario-->
+       
+    <!--Lista de productos-->
+
+    <div id="lista-producto" class="columna-8"></div>
+       
+        </div>
+
+    </div>
+
+    <script src="./App.js"></script>
+</body>
+</html>
